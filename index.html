@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RejigAI</title>
+  <!-- Google Fonts integration -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Poppins', sans-serif; /* Updated font */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: radial-gradient(
+        120% 60% at 50% 0%,
+        rgba(255, 127, 80, 0.2) 0%, /* Subtle coral background */
+        rgba(0, 0, 0, 1) 80%
+      );
+      background-color: #000;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 40px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .logo {
+        font-weight: 600; /* Bolder font for the logo */
+        font-size: 1.8rem;
+        color: white;
+        z-index: 1;
+    }
+
+    .logo span {
+        color: #e9460b; /* Subtle coral color */
+    }
+
+    .nav-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 30px;
+    }
+
+    .nav-center a {
+        text-decoration: none;
+        color: #ccc;
+        font-weight: 500;
+    }
+
+    .nav-center a:hover {
+        color: white;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ccc;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px 40px;
+    }
+
+    h1 {
+      font-family: 'Roboto Slab', serif; /* Creative font for heading */
+      font-size: 3rem;
+      max-width: 800px;
+      margin-bottom: 20px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      margin: 10px;
+      padding: 15px 25px;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: #ca3e0b; /* Subtle coral color */
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #ca3e0b; /* Slightly darker coral for hover effect */
+    }
+
+    .btn-secondary {
+      background: #333;
+      color: white;
+      border: 1px solid #666;
+    }
+
+    footer {
+      padding: 20px;
+      font-size: 0.9rem;
+      background-color: #0f0f0f;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #e9460b; /* Subtle coral color */
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Rejig<span>AI</span></div>
+    <nav class="nav-center">
+      <a href="#">Products</a>
+      <a href="#">Docs</a>
+      <a href="#">Pricing</a>
+      <a href="#">Blog</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Reinventing Video Editing with AI<br>Faster. Better. Cheaper.</h1>
+    <div class="buttons">
+      <a class="btn-primary" href="#">Get started →</a>
+    </div>
+  </main>
+
+  <footer>
+    For more information, reach out at <a href="mailto:hi@rejigai.com">hi@rejigai.com</a>
+  </footer>
+</body>
+</html>
